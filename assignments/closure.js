@@ -1,5 +1,32 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function lambdaSchool(){
+  console.log("Welcome to Lambda School")
+  const motto = "Become a Developer!";
+  console.log(`${motto}`)
+  
+
+    function cohort(){
+      const cohortMotto = "Web 18 is kewl";
+      console.log(`${motto} ${cohortMotto}`);
+
+      function struggleBus(){
+        const struggleMotto = "The struggle is real";
+        console.log(`${cohortMotto} but after 2 days of JS ${struggleMotto}`);
+        
+      }
+      struggleBus();
+      
+    }
+    cohort();
+};
+
+lambdaSchool();
+
+
+
+console.log(lambdaSchool);
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
